@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AnonX - Beta Agreement</title>
+  
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              neonGreen: '#00FF66',
+              mutedGreen: '#00CC52',
+              darkGray: '#1A1A1A',
+              border: '#2A2A2A',
+              black: '#0A0A0A'
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-[#0A0A0A] text-white antialiased min-h-screen selection:bg-brand-neonGreen selection:text-black">
+  <div class="max-w-4xl mx-auto py-24 px-6">
+    
+    <!-- Header Section -->
+    <header class="border-b border-[#2A2A2A] pb-12 mb-16">
+      <div class="inline-block text-xs px-3 py-1 rounded-full border border-gray-700 mb-6 bg-[#1A1A1A]">
+        <p class="font-mono text-brand-neonGreen">[ LEGAL // BETA ]</p>
+      </div>
+      <h1 class="text-5xl md:text-7xl font-black tracking-tighter text-white mb-4 font-sans">
+        BETA AGREEMENT
+      </h1>
+      <div class="flex flex-wrap gap-2 items-center text-sm font-mono text-gray-500 uppercase tracking-wider mb-8">
+        <span>Effective: May 31, 2026</span>
+      </div>
+      <p class="text-xl text-gray-400 max-w-2xl leading-relaxed">
+        Welcome to the AnonX Closed Beta. By participating in this program, you agree to comply with and be bound by the following terms. This agreement contains strict non-disclosure obligations and liability waivers.
+      </p>
+    </header>
+
+    <!-- Content Body -->
+    <main class="space-y-16">
+      
+      <!-- Section 1 -->
+      <section class="bg-[#0E0E0E] border border-[#2A2A2A] p-8 md:p-10 rounded-lg hover:border-gray-700 transition-colors">
+        <div class="text-brand-neonGreen font-mono text-xs mb-4">// SECTION 1</div>
+        <h2 class="text-2xl font-bold mb-6">Non-Disclosure and Confidentiality (NDA)</h2>
+        <div class="space-y-4 text-gray-400 text-sm md:text-base leading-relaxed">
+          <p>
+            As a beta tester, you will have access to pre-release features, designs, code, and concepts that are strictly confidential ("Confidential Information"). You agree that you will not:
+          </p>
+          <ul class="grid grid-cols-1 gap-3 pl-6 list-disc marker:text-brand-neonGreen">
+            <li>Disclose, discuss, or share any Confidential Information with anyone outside the AnonX closed beta program.</li>
+            <li>Take screenshots, screen recordings, or photographs of the beta platform.</li>
+            <li>Post about the beta software on social media, blogs, or any public forum.</li>
+            <li>Use the Confidential Information for any purpose other than testing the AnonX platform and providing feedback.</li>
+          </ul>
+          <p class="mt-6">
+            Your obligation to maintain confidentiality will remain in effect until AnonX publicly releases the features you are testing.
+          </p>
+        </div>
+      </section>
+
+      <!-- Section 2 -->
+      <section class="bg-[#0E0E0E] border border-[#2A2A2A] p-8 md:p-10 rounded-lg hover:border-gray-700 transition-colors">
+        <div class="text-brand-neonGreen font-mono text-xs mb-4">// SECTION 2</div>
+        <h2 class="text-2xl font-bold mb-6">"As-Is" Software and Assumption of Risk</h2>
+        <div class="space-y-4 text-gray-400 text-sm md:text-base leading-relaxed">
+          <p>
+            You acknowledge that the beta software is a pre-release version. It may contain bugs, errors, and other problems that could cause system failures, crashes, or data loss. 
+          </p>
+          <div class="border-l-2 border-brand-neonGreen pl-6 py-2 my-6">
+            <p class="font-bold text-white italic">
+              The beta software is provided "AS IS" and "AS AVAILABLE" without any warranty of any kind. You use it entirely at your own risk.
+            </p>
+          </div>
+          <p>
+            We strongly recommend that you do not use the beta software in a production environment or rely on it for critical communications. AnonX is not responsible for any data loss, device corruption, or other damages arising from your use of the beta software.
+          </p>
+        </div>
+      </section>
+
+      <!-- Section 3 -->
+      <section class="bg-[#0E0E0E] border border-[#2A2A2A] p-8 md:p-10 rounded-lg hover:border-gray-700 transition-colors">
+        <div class="text-brand-neonGreen font-mono text-xs mb-4">// SECTION 3</div>
+        <h2 class="text-2xl font-bold mb-6">Feedback Assignment</h2>
+        <div class="space-y-4 text-gray-400 text-sm md:text-base leading-relaxed">
+          <p>
+            We value your feedback! As part of the beta program, you may provide suggestions, bug reports, feature requests, or other input ("Feedback"). By submitting Feedback, you agree that:
+          </p>
+          <ul class="grid grid-cols-1 gap-3 pl-6 list-disc marker:text-brand-neonGreen">
+            <li>AnonX exclusively owns all rights, title, and interest in and to the Feedback.</li>
+            <li>AnonX may use, modify, implement, or ignore the Feedback entirely at its own discretion.</li>
+            <li>You are not entitled to any compensation, royalties, equity, or attribution for providing the Feedback.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- Section 4 -->
+      <section class="bg-[#0E0E0E] border border-[#2A2A2A] p-8 md:p-10 rounded-lg hover:border-gray-700 transition-colors">
+        <div class="text-brand-neonGreen font-mono text-xs mb-4">// SECTION 4</div>
+        <h2 class="text-2xl font-bold mb-6">Telemetry and Data Privacy</h2>
+        <div class="space-y-4 text-gray-400 text-sm md:text-base leading-relaxed">
+          <p>
+            Because this is a beta version designed to uncover bugs, the software may collect more diagnostic data, crash logs, and telemetry than our production app. This may include your device information, IP address, performance metrics, and interaction logs.
+          </p>
+          <p>
+            By participating, you consent to the collection of this diagnostic data. All data collected during the beta will be subject to our standard <a href="/legal/privacy.html" class="text-brand-neonGreen hover:underline">Privacy Policy</a>, but may be stored in separate testing environments.
+          </p>
+        </div>
+      </section>
+
+      <!-- Section 5 -->
+      <section class="bg-[#0E0E0E] border border-[#2A2A2A] p-8 md:p-10 rounded-lg hover:border-gray-700 transition-colors">
+        <div class="text-brand-neonGreen font-mono text-xs mb-4">// SECTION 5</div>
+        <h2 class="text-2xl font-bold mb-6">Termination & Acknowledgement</h2>
+        <div class="space-y-4 text-gray-400 text-sm md:text-base leading-relaxed">
+          <p>
+            AnonX reserves the right to terminate your access to the closed beta program at any time, for any reason, with or without notice. Upon termination, you must immediately cease using the beta software and delete any copies in your possession. Your confidentiality obligations will survive termination.
+          </p>
+          <p class="mt-4 pt-6 border-t border-[#2A2A2A]">
+            By proceeding to use the AnonX Beta platform, you acknowledge that you have read, understood, and agree to be bound by this Closed Beta Testing Agreement, as well as our standard <a href="/legal/terms.html" class="text-brand-neonGreen hover:underline">Terms of Service</a>.
+          </p>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="mt-16 pt-8 border-t border-[#2A2A2A] text-center">
+      <p class="text-xs font-mono tracking-wider uppercase text-gray-500">
+        <a href="/" class="hover:text-brand-neonGreen transition-colors">&larr; Return to Home</a>
+      </p>
+      <p class="text-xs font-mono tracking-wider uppercase mt-4 text-gray-600">© 2026 AnonX LLC</p>
+    </footer>
+    
+  </div>
+</body>
+</html>
